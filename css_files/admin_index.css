@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: rgba(44, 167, 130, 0.164);
+    width: 28%;
+    /*min-width: 300px;*/
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.main form input{
+    border: 1px solid rgb(0, 153, 255);
+    width: 80%;
+    border-radius: 8px;
+    height: 18px;
+}
+.main form button{
+    border: 1px solid rgb(0, 153, 255);
+    width: 30%;
+    border-radius: 8px;
+    height: 20px;
+}
+@media (max-width: 767px){
+    .main{
+
+        width: 90%;
+
+    }
+
+}
+  
